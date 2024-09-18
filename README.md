@@ -1,8 +1,17 @@
-# React + Vite
+# Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A small weather dashboard that shows the current weather for a given city. Features include real-time weather data, a 5-day forecast, and local storage to remember the last searched city.
 
-Currently, two official plugins are available:
+## Getting Started
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the development server.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Search for weather by city name.
+- View current weather including temperature, description, and icon.
+- View a 5-day forecast.
+- Loading spinner during data fetch.
+- Error handling for failed API requests and invalid city names.
+- Local storage for the last searched city.
