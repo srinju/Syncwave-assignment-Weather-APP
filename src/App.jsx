@@ -9,7 +9,7 @@ import Spinner from "./components/Spinner"
 
 const App = () => {
 
-  const [query,setQuery] = useState(localStorage.getItem("lastCity"));
+  const [query,setQuery] = useState({q:localStorage.getItem("lastCity") || "london"});
   const [units,setUnits] = useState('metric');
   const [weather,setweather] = useState(null);
   const [loading,setLoading] = useState(false);
